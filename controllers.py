@@ -1,21 +1,21 @@
 # -*- coding: utf-8 -*-
 from odoo import http
 
-# class Openacademy(http.Controller):
-#     @http.route('/openacademy/openacademy/', auth='public')
+# class Rentalcars(http.Controller):
+#     @http.route('/rentalcars/rentalcars/', auth='public')
 #     def index(self, **kw):
-#         return "Hello, world"
+#         return "It's working"
 
-#     @http.route('/openacademy/openacademy/objects/', auth='public')
+#     @http.route('/rentalcars/rentalcars/objects/', auth='public')
 #     def list(self, **kw):
-#         return http.request.render('openacademy.listing', {
-#             'root': '/openacademy/openacademy',
-#             'objects': http.request.env['openacademy.openacademy'].search([]),
+#         return http.request.render('rentalcars.listing', {
+#             'root': '/rentalcars/rentalcars',
+#             'objects': http.request.env['rentalcars.rentalcars'].search([]),
 #         })
 
-#     @http.route('/openacademy/openacademy/objects/<model("openacademy.openacademy"):obj>/', auth='public')
+#     @http.route('/rentalcars/rentalcars/objects/<model("rentalcars.rentalcars"):obj>/', auth='public')
 #     def object(self, obj, **kw):
-#         return http.request.render('openacademy.object', {
+#         return http.request.render('rentalcars.object', {
 #             'object': obj
 #         })
 
